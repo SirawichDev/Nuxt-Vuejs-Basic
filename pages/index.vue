@@ -1,19 +1,12 @@
 <template>
-  <section class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        Nuxt-Nuxt
-      </h1>
-      <h2 class="subtitle">
-        For Learn how to use vue easiler🌎
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-      </div>
-    </div>
-  </section>
+<div class="container">
+<article class="message">
+  <div class="message-header">
+    <nuxt-link to="/users">Mr.Sirawich Voungchuy</nuxt-link>
+    <button class="delete" aria-label="delete"></button>
+  </div>
+</article>
+</div>
 </template>
 
 <script>
