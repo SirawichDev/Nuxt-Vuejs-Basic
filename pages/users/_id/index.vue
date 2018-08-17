@@ -1,9 +1,8 @@
 <template>
-    <div class="card">
-        <div class="card-image">
-        <h1>Hello User Id : {{$route.params.id}}</h1>
-        </div>
-    </div>
+    <div class="notification is-primary">
+  <button class="delete"></button>
+  <h2><strong>Hello My User Id is - {{$route.params.id}}</strong></h2>
+</div>
 </template>
 <script>
 export default {
