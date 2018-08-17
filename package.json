@@ -1,0 +1,20 @@
+{
+  "name": "Nuxt-Nuxt",
+  "version": "1.0.0",
+  "description": "For Learn how to use vue easiler🌎",
+  "author": "SirawichDev",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0",
+    "@nuxtjs/bulma": "^1.0.3"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  }
+}
