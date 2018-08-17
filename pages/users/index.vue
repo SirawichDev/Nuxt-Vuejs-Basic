@@ -1,24 +1,3 @@
 <template>
-    <div>
-        <input type="text" v-model="userId" >
-        <button  @click="onLoadUser">Load User</button>
-    </div>
+  <h1>Please Search with number only</h1>
 </template>
-<script>
-export default {
-    data(){
-        return{
-            userId: ''
-        }
-    },
-    methods: {
-        onLoadUser(){
-            this.$router.push('/users/'+this.userId )
-        }
-    }
-}
-</script>
-
-<style>
-
-</style>

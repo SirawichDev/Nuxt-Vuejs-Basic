@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-<article class="message">
+<article class="message is-success">
   <div class="message-header">
     <nuxt-link to="/users">Mr.Sirawich Voungchuy</nuxt-link>
     <button class="delete" aria-label="delete"></button>
