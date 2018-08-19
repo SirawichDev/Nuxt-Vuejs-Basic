@@ -1,25 +1,30 @@
 <template>
-<div class="container">
+<div>
 <article class="message is-success">
   <div class="message-header">
     <nuxt-link to="/users">Mr.Sirawich Voungchuy</nuxt-link>
-    <button class="delete" aria-label="delete"></button>
   </div>
 </article>
+      <Header/>
 </div>
+
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Header from '~/components/Header.vue'
 
 export default {
   components: {
-    Logo
+    Header
   }
 }
 </script>
 
 <style>
+.message-header{
+  width: 10%;
+  height: 10%;
+}
 .container
 {
   min-height: 100vh;
