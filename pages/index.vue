@@ -1,10 +1,14 @@
 <template>
 <div>
+  <div class="column is-one-fifth">
 <article class="message is-success">
   <div class="message-header">
     <nuxt-link to="/users">Mr.Sirawich Voungchuy</nuxt-link>
   </div>
+
 </article>
+  </div>
+
       <Menu/>
 </div>
 
@@ -21,10 +25,6 @@ export default {
 </script>
 
 <style>
-.message-header{
-  width: 10%;
-  height: 10%;
-}
 .container
 {
   min-height: 100vh;

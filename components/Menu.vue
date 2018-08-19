@@ -1,4 +1,6 @@
 <template>
+
+  <div class="column is-one-fifth">
  <aside class="menu">
   <p class="menu-label">
     General
@@ -9,7 +11,7 @@
 
   </ul>
   <p class="menu-label">
-    Find
+    Find With
   </p>
   <ul class="menu-list">
     <li><a>UserId</a></li>
@@ -17,11 +19,12 @@
     <li><a>Balance</a></li>
   </ul>
 </aside>
+</div>
+
 </template>
 
 <style>
     aside{
-        margin-left: 10px;
-        width: 10%;
+        margin-left: 5%;
     }
 </style>
