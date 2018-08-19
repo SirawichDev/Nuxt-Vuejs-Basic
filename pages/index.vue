@@ -5,17 +5,17 @@
     <nuxt-link to="/users">Mr.Sirawich Voungchuy</nuxt-link>
   </div>
 </article>
-      <Header/>
+      <Menu/>
 </div>
 
 </template>
 
 <script>
-import Header from '~/components/Header.vue'
+import Menu from '~/components/Menu.vue'
 
 export default {
   components: {
-    Header
+    Menu
   }
 }
 </script>
